@@ -11,7 +11,7 @@ public class TestDataUtils extends Baseclass {
 
 	
 	public TestDataUtils() throws IOException {
-		super();
+		super(driver);
 		// TODO Auto-generated constructor stub
 	}
 
