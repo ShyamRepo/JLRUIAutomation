@@ -3,10 +3,13 @@ package Utils;
 import java.io.IOException;
 import java.time.Duration;
 
+import org.bouncycastle.oer.its.ieee1609dot2.basetypes.PublicEncryptionKey;
+import org.json.JSONObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.json.Json;
 import org.openqa.selenium.support.PageFactory;
 
 public class common extends Baseclass {
@@ -77,6 +80,16 @@ public class common extends Baseclass {
 
 	public void waitForVisbility() {
 		// TODO Auto-generated method stub
+		
+	}
+	
+	public static JSONObject getValuefromjson(String bodyvalue) 
+	{
+		
+		JSONObject json = new JSONObject(bodyvalue);
+		return json;
+		
+		
 		
 	}
 }

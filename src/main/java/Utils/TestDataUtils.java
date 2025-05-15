@@ -17,6 +17,9 @@ public class TestDataUtils extends Baseclass {
 
 
 	public static final long waitfor=10;
+	private static final String PROJECT_PATH = System.getProperty("user.dir");
+	  public static final String RESOURCES_FOLDER_PATH = PROJECT_PATH + File.separator + "src" + File.separator
+			    + "main" + File.separator + "java"+File.separator + "Resources";
 	
 	
 	public static void takeScreenshot() throws IOException {

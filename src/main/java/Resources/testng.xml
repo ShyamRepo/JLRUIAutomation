@@ -10,6 +10,7 @@
 	<test name="JLR Test Cases">
 		<classes>
 			<class name="HomePage.HomePageVerification"></class>
+			<class name="com.API.AddNewPetStore"></class>
 		
 
 		</classes>
