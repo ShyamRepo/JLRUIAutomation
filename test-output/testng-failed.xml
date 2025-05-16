@@ -6,12 +6,13 @@
   </listeners>
   <test thread-count="5" name="JLR Test Cases(failed)">
     <classes>
-      <class name="Footer.FooterLinkVerification">
+      <class name="HomePage.HomePageVerification">
         <methods>
+          <include name="menuLinkVerfied"/>
+          <include name="close"/>
           <include name="setup"/>
-          <include name="verifiedFooterLink"/>
         </methods>
-      </class> <!-- Footer.FooterLinkVerification -->
+      </class> <!-- HomePage.HomePageVerification -->
     </classes>
   </test> <!-- JLR Test Cases(failed) -->
 </suite> <!-- Failed suite [JLR Application Test Automation Test Suite] -->
