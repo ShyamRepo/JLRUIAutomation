@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+	tools
+	{
+	maven "MAVEN_HOME"
+	}
     stages {
         stage('building') {
             steps {
@@ -10,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh 'mvn clean install'
+                bat "mvn clean install"
             }
         }
         stage('Deploy') {
