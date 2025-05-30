@@ -46,10 +46,12 @@ public class Baseclass {
 		System.out.println(browserName);
 		if(browserName.equals("Chrome")) 
 		{
+			ChromeOptions option = new ChromeOptions();
+			option.addArguments("--headless");
 			System.out.println(browserName);
 			WebDriverManager.chromedriver().setup();
 			//chromeOption.addArguments("--start-maximized");
-			driver= new ChromeDriver();
+			driver= new ChromeDriver(option);
 		}
 		log.info("Browser is launch Successfull");
 		
