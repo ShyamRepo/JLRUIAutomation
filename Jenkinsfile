@@ -15,12 +15,13 @@ pipeline {
             steps {
                 echo 'Testing..'
                 bat "mvn clean test"
-                emailext body: 'thanks', subject: 'Jenkins report', to: 'dheer.shyam297@gmail.com'
+                
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                emailext body: 'thanks', subject: 'Jenkins report', to: 'dheer.shyam297@gmail.com'
             }
         }
     }
