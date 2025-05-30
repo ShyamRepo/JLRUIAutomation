@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chromium.ChromiumOptions;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.util.TimeUtils;
@@ -63,6 +64,7 @@ public class Baseclass {
 		  initbrowser();
 	  }
 	
+	@AfterSuite
 	public static void tearDown() 
 	{
 		driver.manage().deleteAllCookies();

@@ -49,10 +49,6 @@ public class HomePageVerification extends Baseclass {
   }
  
   
-  @AfterTest
-  public static void close() 
-  {
-	  tearDown();
-  }
+ 
   
 }
