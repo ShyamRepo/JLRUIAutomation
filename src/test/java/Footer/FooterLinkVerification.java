@@ -23,11 +23,7 @@ public class FooterLinkVerification extends Baseclass {
   
 
   
-  @BeforeTest
-  public void setup() 
-  {
-	  initbrowser();
-  }
+  
   
  
   

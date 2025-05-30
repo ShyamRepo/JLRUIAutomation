@@ -24,11 +24,11 @@ public class HomePageVerification extends Baseclass {
 		
 	}
 	
-	@BeforeTest
-	public void setup() 
-	{
-		initbrowser();
-	}
+//	@BeforeTest
+//	public void setup() 
+//	{
+//		initbrowser();
+//	}
   @Test(testName="Home Verified",description = "user will be check home page validation", retryAnalyzer = RetryAnalyzer.class)
 
   public void homePageVerfied() throws IOException {

@@ -44,8 +44,21 @@ public class FooterPage extends Baseclass {
 		String text=accessibilityTxt.getText();
 		System.out.println(text);
 		Assert.assertTrue(flag);
+		tearDown();
 		
 		
 	}
+	
+	public HomePage validate() 
+	{
+		
+		
+		
+		return null;
+		
+		
+		
+	}
+
 
 }
