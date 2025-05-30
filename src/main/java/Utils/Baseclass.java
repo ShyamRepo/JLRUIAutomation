@@ -67,7 +67,7 @@ public class Baseclass {
 	@AfterSuite
 	public static void tearDown() 
 	{
-		driver.manage().deleteAllCookies();
+		//driver.manage().deleteAllCookies();
 		driver.quit();
 		
 		
