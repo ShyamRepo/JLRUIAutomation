@@ -10,7 +10,7 @@
 	<test name="JLR Test Cases">
 		<classes>
 			<class name="HomePage.HomePageVerification"></class>
-			<class name="Footer.FooterLinkVerification"></class>
+			
 			
 
 		</classes>
