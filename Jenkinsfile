@@ -11,7 +11,7 @@ pipeline {
                  echo 'build..'
             }
         }
-        stage('Test') {
+        stage('Testing') {
             steps {
                 echo 'Testing..'
                 bat "mvn clean test"
